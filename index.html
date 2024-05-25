@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius to and from Fahrenheit</title>
+</head>
+
+<body>
+
+    <label for="temp">Input temperature: </label>
+    <input type="number" name="temp" id="temp" /><br><br>
+    <button type="button" onclick="getCelsiusToFahrenheit('target', 'temp')">C to F</button>
+    <button type="button" onclick="getFahrenheitToCelsius('target', 'temp')">F to C</button><br><br>
+    <span id="target"></span>
+
+    <script src="./c-to-f.js"></script>
+</body>
+
+</html>
